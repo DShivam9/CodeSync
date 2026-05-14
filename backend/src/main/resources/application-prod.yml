@@ -1,0 +1,13 @@
+spring:
+  jpa:
+    show-sql: false
+
+logging:
+  level:
+    com.codesync: INFO
+    org.springframework.web.socket: WARN
+
+server:
+  error:
+    include-message: never
+    include-binding-errors: never
